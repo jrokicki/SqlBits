@@ -1,7 +1,7 @@
 
 setwd('D:\\GitHub\\SqlBits\\')
 source('.\\TextMiningSrc.r')
-# source(gzcon(url('https://github.com/jrokicki/SqlBits/TextMiningSrc.r', 'rb')))
+#source('https://github.com/jrokicki/SqlBits/TextMiningSrc.r')
 
 ## prepare data
 # load stopwords
