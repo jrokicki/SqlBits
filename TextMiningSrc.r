@@ -110,7 +110,7 @@ word2cloud.TDF <- function(corpus, maxwords = 50){
   }
 }
 
-# words dendogram
+# words dendrogram
 hclust.TDM <- function(tdm, k = 6){
   if(require(Rgraphviz)){
     m <- scale(as.matrix(tdm))
